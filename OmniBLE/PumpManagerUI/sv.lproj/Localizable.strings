@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  OmniBLE
+
+  Copyright © 2022 Randall Knutson. All rights reserved.
+ 
+*/
+/* Button title to pair with pod during setup */
+"Pair" = "Parkoppla";
+
+/* Button title to deactivate pod because of fault during setup */
+"Deactivate" = "Inaktivera";
+
+/* Confirmation message for shutting down a pod */
+"Are you sure you want to shutdown this pod?" = "Bekräfta att du vill ";
+
+/* Button title to deactivate pod */
+"Deactivate Pod" = "Deactivate Pod";
+
+/* The title of the continue action in an action sheet */
+"Continue" = "Continue";
+
+/* Additional pairing recovery suggestion on multiple pairing failures */
+"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+
+/* The text of the loading label when pod is primed */
+"Primed" = "Primed";
+
+/* The text of the loading label when priming */
+"Priming…" = "Priming…";
+
+/* The text of the loading label when pairing */
+"Pairing…" = "Pairing…";

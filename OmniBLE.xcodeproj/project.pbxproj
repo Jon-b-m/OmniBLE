@@ -72,6 +72,7 @@
 		10389A3F26FF7841002115E9 /* CRC16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10389A2026FF7841002115E9 /* CRC16.swift */; };
 		10389A4126FF7841002115E9 /* MessageTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10389A2226FF7841002115E9 /* MessageTransport.swift */; };
 		1973403D27902DC400864539 /* OmnipodPumpManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1973403F27902DC400864539 /* OmnipodPumpManager.storyboard */; };
+		19DCE50027907BE800212E50 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19DCE50227907BE800212E50 /* Localizable.strings */; };
 		84752E9126ED0FFE009FD801 /* OmnipodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84752E9026ED0FFE009FD801 /* OmnipodTests.swift */; };
 		84752E9326ED0FFE009FD801 /* OmniBLE.h in Headers */ = {isa = PBXBuildFile; fileRef = 84752E8526ED0FFE009FD801 /* OmniBLE.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84752E9E26ED10A0009FD801 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84752E9D26ED10A0009FD801 /* CoreBluetooth.framework */; };
@@ -211,6 +212,8 @@
 		10389A2226FF7841002115E9 /* MessageTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTransport.swift; sourceTree = "<group>"; };
 		1973403E27902DC400864539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OmnipodPumpManager.storyboard; sourceTree = "<group>"; };
 		1973404127902DCA00864539 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE50127907BE800212E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE50327907C7900212E50 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84752E8226ED0FFE009FD801 /* OmniBLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OmniBLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84752E8526ED0FFE009FD801 /* OmniBLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OmniBLE.h; sourceTree = "<group>"; };
 		84752E8626ED0FFE009FD801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -530,6 +533,7 @@
 				1029AE4E27094E1900B7F5B6 /* OmnipodUI.xcassets */,
 				8475312626ED838A009FD801 /* ViewControllers */,
 				8475311E26ED838A009FD801 /* Views */,
+				19DCE50227907BE800212E50 /* Localizable.strings */,
 			);
 			path = PumpManagerUI;
 			sourceTree = "<group>";
@@ -729,6 +733,7 @@
 				8475313626ED838B009FD801 /* OmnipodReservoirView.xib in Resources */,
 				1029AE4F27094E1900B7F5B6 /* OmnipodUI.xcassets in Resources */,
 				A9793B3C276E0264005354B3 /* README.md in Resources */,
+				19DCE50027907BE800212E50 /* Localizable.strings in Resources */,
 				8475313726ED838B009FD801 /* PodLifeHUDView.xib in Resources */,
 				8475313326ED838B009FD801 /* HUDAssets.xcassets in Resources */,
 				A91B2DEC276E1E5E001B0E95 /* README.md in Resources */,
@@ -923,6 +928,15 @@
 				1973404127902DCA00864539 /* sv */,
 			);
 			name = OmnipodPumpManager.storyboard;
+			sourceTree = "<group>";
+		};
+		19DCE50227907BE800212E50 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DCE50127907BE800212E50 /* en */,
+				19DCE50327907C7900212E50 /* sv */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
