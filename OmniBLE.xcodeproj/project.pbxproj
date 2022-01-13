@@ -214,6 +214,36 @@
 		1973404127902DCA00864539 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
 		19DCE50127907BE800212E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		19DCE50327907C7900212E50 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5052790E25B00212E50 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/OmnipodPumpManager.strings"; sourceTree = "<group>"; };
+		19DCE5072790E28E00212E50 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5092790E2C900212E50 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE50B2790E2FF00212E50 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE50D2790E32F00212E50 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE50F2790E36000212E50 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5112790E3A900212E50 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5132790E3DA00212E50 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5152790E41B00212E50 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5172790E44D00212E50 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5192790E47D00212E50 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/OmnipodPumpManager.strings"; sourceTree = "<group>"; };
+		19DCE51B2790E4B000212E50 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE51D2790E4E000212E50 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE51F2790E52100212E50 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5212790E55200212E50 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/OmnipodPumpManager.strings; sourceTree = "<group>"; };
+		19DCE5222790E55A00212E50 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		19DCE5232790E55B00212E50 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5242790E55C00212E50 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5252790E55D00212E50 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5262790E55E00212E50 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5272790E55F00212E50 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5282790E56000212E50 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5292790E56100212E50 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE52A2790E56300212E50 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE52B2790E56400212E50 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE52C2790E56600212E50 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		19DCE52D2790E56700212E50 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE52E2790E56800212E50 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE52F2790E56900212E50 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19DCE5302790E56A00212E50 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84752E8226ED0FFE009FD801 /* OmniBLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OmniBLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84752E8526ED0FFE009FD801 /* OmniBLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OmniBLE.h; sourceTree = "<group>"; };
 		84752E8626ED0FFE009FD801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -926,6 +956,21 @@
 			children = (
 				1973403E27902DC400864539 /* Base */,
 				1973404127902DCA00864539 /* sv */,
+				19DCE5052790E25B00212E50 /* zh-Hans */,
+				19DCE5072790E28E00212E50 /* da */,
+				19DCE5092790E2C900212E50 /* nl */,
+				19DCE50B2790E2FF00212E50 /* fi */,
+				19DCE50D2790E32F00212E50 /* fr */,
+				19DCE50F2790E36000212E50 /* de */,
+				19DCE5112790E3A900212E50 /* it */,
+				19DCE5132790E3DA00212E50 /* ja */,
+				19DCE5152790E41B00212E50 /* nb */,
+				19DCE5172790E44D00212E50 /* pl */,
+				19DCE5192790E47D00212E50 /* pt-BR */,
+				19DCE51B2790E4B000212E50 /* ro */,
+				19DCE51D2790E4E000212E50 /* ru */,
+				19DCE51F2790E52100212E50 /* es */,
+				19DCE5212790E55200212E50 /* vi */,
 			);
 			name = OmnipodPumpManager.storyboard;
 			sourceTree = "<group>";
@@ -935,6 +980,21 @@
 			children = (
 				19DCE50127907BE800212E50 /* en */,
 				19DCE50327907C7900212E50 /* sv */,
+				19DCE5222790E55A00212E50 /* zh-Hans */,
+				19DCE5232790E55B00212E50 /* da */,
+				19DCE5242790E55C00212E50 /* nl */,
+				19DCE5252790E55D00212E50 /* fi */,
+				19DCE5262790E55E00212E50 /* fr */,
+				19DCE5272790E55F00212E50 /* de */,
+				19DCE5282790E56000212E50 /* it */,
+				19DCE5292790E56100212E50 /* ja */,
+				19DCE52A2790E56300212E50 /* nb */,
+				19DCE52B2790E56400212E50 /* pl */,
+				19DCE52C2790E56600212E50 /* pt-BR */,
+				19DCE52D2790E56700212E50 /* ro */,
+				19DCE52E2790E56800212E50 /* ru */,
+				19DCE52F2790E56900212E50 /* es */,
+				19DCE5302790E56A00212E50 /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
