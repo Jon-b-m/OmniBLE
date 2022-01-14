@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  OmniBLE
+
+  Copyright © 2022 Randall Knutson. All rights reserved.
+*/
+
+/* Description waiting for pairing reminder */
+"Waiting for pairing reminder" = "Waiting for pairing reminder";
+
+/* Description for finish setup reminder */
+"Finish setup reminder" = "Finish setup reminder";
+
+/* Description for expiration alert */
+"Expiration alert" = "Expiration alert";
+
+/* Description for expiration advisory */
+"Expiration advisory" = "Expiration advisory";
+
+/* Description for shutdown imminent */
+"Shutdown imminent" = "Shutdown imminent";
+
+/* Description for low reservoir advisory */
+"Low reservoir advisory" = "Low reservoir advisory";
+
+/* Description for auto-off */
+"Auto-off" = "Auto-off";
+
+/* Description for pod suspended reminder */
+"Pod suspended reminder" = "Pod suspended reminder";
+
+/* Description for suspend time expired */
+"Suspend time expired" = "Suspend time expired";
+
+/* Description for an inactive alert modifier */
+" (inactive)" = " (inactive)";
+
+/* Pod alert state when no alerts are active */
+"No alerts" = "No alerts";
+
+/* Delivery status when insulin delivery is suspended */
+"Suspended" = "Pausad";
+
+/* Delivery status when scheduled basal is running */
+"Scheduled basal" = "Ordinarie basal";
+
+/* Delivery status when temp basal is running */
+"Temp basal running" = "Temporär basal används";
+
+/* Delivery status when pod is priming */
+"Priming" = "Fyller";
+
+/* Delivery status when bolusing */
+"Bolusing" = "Ger bolus";
+
+/* Delivery status when bolusing and temp basal is running */
+"Bolusing with temp basal" = "Ger bolus med pågående temporär basal";
