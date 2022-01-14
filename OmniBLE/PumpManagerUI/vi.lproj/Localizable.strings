@@ -311,3 +311,60 @@
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
 "If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+
+/* A message indicating a command succeeded */
+"Succeeded" = "Succeeded";
+
+/* Progress message for changing pod time. */
+"Changing time…" = "Changing time…";
+
+/* The format string for minutes (1: number of minutes string) */
+"%1$@ minutes" = "%1$@ minutes";
+
+/* he format string for Pod Active Clock: (1: formatted time) */
+"Pod Active Clock: %1$@\n" = "Pod Active Clock: %1$@\n";
+
+/* The format string for Delivery Status: (1: delivery status string) */
+"Delivery Status: %1$@\n" = "Delivery Status: %1$@\n";
+
+/* The format string for Pulse Count (1: pulse count) */
+"Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
+
+/* The format string for Reservoir Level: (1: reservoir level string) */
+"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ U\n";
+
+/* The format string for Last Bolus Not Delivered: (1: bolus not delivered string) */
+"Last Bolus Not Delivered: %1$@ U\n" = "Last Bolus Not Delivered: %1$@ U\n";
+
+/* The format string for Alerts: (1: the alerts string) */
+"Alerts: %1$@\n" = "Alerts: %1$@\n";
+
+/* The format string for RSSI: (1: RSSI value) */
+"RSSI: %1$@\n" = "RSSI: %1$@\n";
+
+/* The format string for receiverLowGain: (1: receiverLowGain) */
+"Receiver Low Gain: %1$@\n" = "Receiver Low Gain: %1$@\n";
+
+/* The format string for a fault: (1: The fault description) */
+"Fault: %1$@\n" = "Fault: %1$@\n";
+
+/* The format string for previous pod progress: (1: previous pod progress string) */
+"Previous pod progress: %1$@\n" = "Previous pod progress: %1$@\n";
+
+/* The format string for fault time: (1: fault time string) */
+"Fault time: %1$@\n" = "Fault time: %1$@\n";
+
+/* Progress message for reading Pod status. */
+"Read Pod Status…" = "Read Pod Status…";
+
+/* Progress message for testing commands. */
+"Testing Commands…" = "Testing Commands…";
+
+/* Success message for play test beeps. */
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled.";
+
+/* Progress message for play test beeps. */
+"Play Test Beeps…" = "Play Test Beeps…";
+
+/* Progress message for reading pulse log. */
+"Reading Pulse Log…" = "Reading Pulse Log…";

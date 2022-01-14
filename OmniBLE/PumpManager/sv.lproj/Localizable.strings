@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  OmniBLE
+
+  Copyright © 2022 Randall Knutson. All rights reserved.
+*/
+
+/* The title for pod expiration notification */
+"Pod Expiration Notice" = "Notis om utgångsdatum";
+    
+/* The format string for pod expiration notification body (1: time until expiration) */
+"Time to replace your pod! Your pod will expire in %1$@" = "Dags att byta podd! Din podd går ut om %1$@";
+
+/* Recover suggestion shown when no pod is paired */
+"Please pair a new pod" = "Parkoppla ny podd";
+
+/* Generic title of the omnipod pump manager */
+"Omnipod Dash" = "Omnipod Dash"
