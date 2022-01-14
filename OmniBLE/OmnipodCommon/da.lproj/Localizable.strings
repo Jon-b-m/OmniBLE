@@ -55,3 +55,72 @@
 
 /* Delivery status when bolusing and temp basal is running */
 "Bolusing with temp basal" = "Bolusing with temp basal";
+
+/* Pod initialized */
+"Initialized" = "Initialized";
+
+/* Pod memory initialized */
+"Memory initialized" = "Memory initialized";
+
+/* Pod pairing reminder initialized */
+"Reminder initialized" = "Reminder initialized";
+
+/* Pod status when pairing completed */
+"Pairing completed" = "Pairing completed";
+
+/* Pod status when priming */
+"Priming" = "Priming";
+
+/* Pod state when priming completed */
+"Priming completed" = "Priming completed";
+
+/* Pod state when basal initialized */
+"Basal initialized" = "Basal initialized";
+
+/* Pod state when inserting cannula */
+"Inserting cannula" = "Inserting cannula";
+
+/* Pod state when running above fifty units */
+"Normal" = "Normal";
+
+/* "Pod state when running with fifty or less units" */
+"Low reservoir" = "Low reservoir";
+
+/* Pod state oneNotUsed */
+"oneNotUsed" = "oneNotUsed";
+
+/* Pod state twoNotUsed */
+"twoNotUsed" = "twoNotUsed";
+
+/* Pod state threeNotUsed */
+"threeNotUsed" = "threeNotUsed";
+
+/* Pod state when fault event has occurred */
+"Fault event occurred" = "Fault event occurred";
+
+/* Pod state when activation not completed in the time allowed */
+"Activation time exceeded" = "Activation time exceeded";
+
+/* Pod state when deactivated */
+"Deactivated" = "Deactivated";
+
+/* String describing a dose that was certainly scheduled */
+"Certain" = "Certain";
+
+/* String describing a dose that was possibly scheduled */
+"Uncertain" = "Uncertain";
+
+/* The format string describing a bolus that was interrupted. (1: The amount delivered)(2: The amount scheduled)(3: Start time of the dose)(4: duration)(5: scheduled certainty) */
+"InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@";
+
+/* The format string describing a bolus. (1: The amount delivered)(2: Start time of the dose)(3: duration)(4: scheduled certainty) */
+"Bolus: %1$@U %2$@ %3$@ %4$@" = "Bolus: %1$@U %2$@ %3$@ %4$@";
+
+/* The format string describing a temp basal. (1: The rate)(2: Start time)(3: duration)(4: volume)(5: scheduled certainty */
+"TempBasal: %1$@ U/hour %2$@ %3$@ %4$@ U %5$@" = "TempBasal: %1$@ U/hour %2$@ %3$@ %4$@ U %5$@";
+
+/* The format string describing a suspend. (1: Time)(2: Scheduled certainty */
+"Suspend: %1$@ %2$@" = "Suspend: %1$@ %2$@";
+
+/* The format string describing a resume. (1: Time)(2: Scheduled certainty */
+"Resume: %1$@ %2$@" = "Resume: %1$@ %2$@";
