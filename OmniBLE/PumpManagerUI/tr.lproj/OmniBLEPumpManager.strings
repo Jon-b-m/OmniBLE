@@ -44,22 +44,22 @@
 "k1Y-x4-m0a.title" = "Pompa Kurulumu";
 
 /* Class = "UILabel"; text = "Review your settings below. They will be programmed into the pod during pairing. You can change these settings at any time in Loopʼs Settings screen."; ObjectID = "kLL-SQ-K0a"; */
-"kLL-SQ-K0a.text" = "Review your settings below. They will be programmed into the pod during pairing. You can change these settings at any time in Loopʼs Settings screen.";
+"kLL-SQ-K0a.text" = "Aşağıdaki ayarlarınızı gözden geçirin. Pod eşleştirme sırasında bu ayarlar programlanacaktır. Bu ayarları istediğiniz zaman Loop'un Ayarlar ekranından değiştirebilirsiniz.";
 
 /* Class = "UINavigationItem"; title = "Setup Complete"; ObjectID = "nDb-R5-e02"; */
-"nDb-R5-e02.title" = "Setup Complete";
+"nDb-R5-e02.title" = "Kurulum tamamlandı";
 
 /* Class = "UITableViewSection"; footerTitle = "NOTE: If cannula sticks out, press cancel."; ObjectID = "rcC-ke-lUP"; */
-"rcC-ke-lUP.footerTitle" = "NOTE: If cannula sticks out, press cancel.";
+"rcC-ke-lUP.footerTitle" = "NOT: Kanül dışarı çıkarsa, iptal düğmesine basın.";
 
 /* Class = "UITableViewSection"; headerTitle = "Apply POD"; ObjectID = "rcC-ke-lUP"; */
-"rcC-ke-lUP.headerTitle" = "Apply POD";
+"rcC-ke-lUP.headerTitle" = "POD'u yerleştirin";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "vEc-Km-ewe"; */
-"vEc-Km-ewe.text" = "Label";
+"vEc-Km-ewe.text" = "Etiket";
 
 /* Class = "UILabel"; text = "Fill a new Omnipod Dash pod (blue tab) with insulin. Listen for 2 beeps from the pod during filling. "; ObjectID = "vmF-Dc-3DS"; */
-"vmF-Dc-3DS.text" = "Fill a new Omnipod Dash pod (blue tab) with insulin. Listen for 2 beeps from the pod during filling. ";
+"vmF-Dc-3DS.text" = "Yeni bir Omnipod Dash pod'unu (mavi sekmeli) insülinle doldurun. Doldurma sırasında bölmeden gelen 2 bip sesini dinleyin. ";
 
 /* Class = "UINavigationItem"; title = "Replace Pod"; ObjectID = "yy1-xf-HdR"; */
-"yy1-xf-HdR.title" = "Replace Pod";
+"yy1-xf-HdR.title" = "Pod'u değiştir";
