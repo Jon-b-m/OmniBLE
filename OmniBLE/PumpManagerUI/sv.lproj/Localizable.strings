@@ -490,13 +490,13 @@
 "Move to a new area away from any other pods and try again." = "Förflytta dig till en ny plats bort ifrån andra poddar och försök sedan igen";
 
 /* Title text for delivery limits */
-"Delivery Limits" = "Delivery Limits";
+"Delivery Limits" = "Maxvärden";
 
 /* The title text for the basal rate schedule */
-"Basal Rates" = "Basal Rates";
+"Basal Rates" = "Basaldoser";
 
 /* The error message shown when Loop's basal schedule has more entries than the pod can support */
-"Too many entries" = "Too many entries";
+"Too many entries" = "För många basaldoser";
 
 /* The error message shown when Loop's basal schedule has an unsupported rate */
-"Invalid entry" = "Invalid entry";
+"Invalid entry" = "Ogiltig inmatning";
