@@ -176,7 +176,7 @@
 "%@ U" = "%@ E";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.poweredOff) */
-"Bluetooth is powered off" = "Bluetooth is powered off";
+"Bluetooth is powered off" = "Bluetooth er slått av";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.resetting) */
 "Bluetooth is resetting" = "Bluetooth is resetting";
