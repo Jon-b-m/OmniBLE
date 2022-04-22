@@ -502,13 +502,7 @@
 "Invalid entry" = "Ogiltig inmatning";
 
 /* Title text for button to disable extended confirmation beeps */
-"Disable Extended Confirmation Beeps" = "Disable Extended Confirmation Beeps";
+"Disable Extended Confirmation Beeps" = "Stäng av utökade bekräftelseljud";
 
 /* Title text for button to enable extended confirmation beeps */
-"Enable Extended Confirmation Beeps" = "Enable Extended Confirmation Beeps";
-
-/* Title text for button to disable extended confirmation beeps */
-"Disable Extended Confirmation Beeps" = "Disable Extended Confirmation Beeps";
-
-/* Title text for button to enable extended confirmation beeps */
-"Enable Extended Confirmation Beeps" = "Enable Extended Confirmation Beeps";
+"Enable Extended Confirmation Beeps" = "Sätt på utäkade bekräftelseljud";
