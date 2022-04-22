@@ -31,11 +31,11 @@
 /* Title text for button to enable confirmation beeps */
 "Enable Confirmation Beeps" = "Ativar Som de Confirmação";
 
-/* Title text for button to disable automatic bolus beeps */
-"Disable Automatic Bolus Beeps" = "Desativar Som de Bolus Automático";
+/* Title text for button to disable extended confirmation beeps */
+"Disable Extended Confirmation Beeps" = "Desativar Sons Extendidos de Confirmação";
 
-/* Title text for button to enable automatic bolus beeps */
-"Enable Automatic Bolus Beeps" = "Ativar Som de Bolus Automático";
+/* Title text for button to enable extended confirmation beeps */
+"Enable Extended Confirmation Beeps" = "Ativar Sons Extendidos de Confirmação";
 
 /* Title of the pod settings view controller" */
 "Pod Settings" = "Configurações do Pod";
@@ -500,9 +500,3 @@
 
 /* The error message shown when Loop's basal schedule has an unsupported rate */
 "Invalid entry" = "Entrada inválida";
-
-/* Title text for button to disable extended confirmation beeps */
-"Disable Extended Confirmation Beeps" = "Desativar Sons Extendidos de Confirmação";
-
-/* Title text for button to enable extended confirmation beeps */
-"Enable Extended Confirmation Beeps" = "Ativar Sons Extendidos de Confirmação";
