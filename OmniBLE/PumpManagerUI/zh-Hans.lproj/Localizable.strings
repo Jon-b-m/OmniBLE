@@ -170,7 +170,7 @@
 "%@ U" = "%@ 单位";
 
 /* Format string for reservoir reading when above or equal to maximum reading. (1: The localized amount) */
-"%@+ U" = "%@+ U";
+"%@+ U" = "+ 单位";
 
 /* Format string for insulin remaining in reservoir. (1: The localized amount) */
 "%@ U" = "%@ 单位";
