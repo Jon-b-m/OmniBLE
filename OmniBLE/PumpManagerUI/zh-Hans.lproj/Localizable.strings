@@ -26,10 +26,10 @@
 "Continue" = "继续";
 
 /* Title text for button to disable confirmation beeps" */
-"Disable Confirmation Beeps" = "Disable Confirmation Beeps";
+"Disable Confirmation Beeps" = "禁用输注成功提醒音";
 
 /* Title text for button to enable confirmation beeps */
-"Enable Confirmation Beeps" = "Enable Confirmation Beeps";
+"Enable Confirmation Beeps" = "启用输注成功命令提醒音";
 
 /* Title text for button to disable extended confirmation beeps */
 "Disable Extended Confirmation Beeps" = "Disable Extended Confirmation Beeps";
@@ -44,10 +44,10 @@
 "Configuration" = "配置";
 
 /* The title of the diagnostics section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "诊断";
 
 /* The title of the pod details section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Pod详情";
 
 /* The title of the cell showing alarm status */
 "Alarms" = "提醒";
@@ -59,7 +59,7 @@
 "Expired" = "Pod已到期";
 
 /* The title of the cell showing the pod active clock */
-"Pod Active Clock" = "Pod Active Clock";
+"Pod Active Clock" = "Pod 活动时钟";
 
 /* The title of the cell showing pod bolus status */
 "Bolus Delivery" = "当前大剂量";
@@ -92,7 +92,7 @@
 "Replace Pod" = "更换Pod";
 
 /* The title of the command to read the pod status" */
-"Read Pod Status" = "Read Pod Status";
+"Read Pod Status" = "读取Pod状态";
 
 /* The title of the command to play test beeps */
 "Play Test Beeps" = "测试提示音";
@@ -110,7 +110,7 @@
 "Sequence Number" = "Sequence Number";
 
 /* The title of the cell showing the firmware version */
-"Firmware Version" = "Firmware Version";
+"Firmware Version" = "固件版本";
 
 /* The title of the cell showing the BLE firmware version" */
 "BLE Firmware Version" = "BLE Firmware Version";
@@ -170,7 +170,7 @@
 "%@ U" = "%@ 单位";
 
 /* Format string for reservoir reading when above or equal to maximum reading. (1: The localized amount) */
-"%@+ U" = "%@+ U";
+"%@+ U" = "+ 单位";
 
 /* Format string for insulin remaining in reservoir. (1: The localized amount) */
 "%@ U" = "%@ 单位";
@@ -182,7 +182,7 @@
 "Bluetooth is resetting" = "Bluetooth is resetting";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unauthorized) */
-"Bluetooth use is unauthorized" = "Bluetooth use is unauthorized";
+"Bluetooth use is unauthorized" = "蓝牙使用未授权";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unsupported) */
 "Bluetooth use unsupported on this device" = "Bluetooth use unsupported on this device";
@@ -227,10 +227,10 @@
 "Invalid LTK Key: %1$@" = "Invalid LTK Key: %1$@";
 
 /* The format string for PodProtocolError.pairingException (1: message associated with error)" */
-"Pairing Exception: %1$@" = "Pairing Exception: %1$@";
+"Pairing Exception: %1$@" = "配对异常： %1$@";
 
 /* The format string for PodProtocolError.messageIOException (1: message associated with error)" */
-"Message IO Exception: %1$@" = "Message IO Exception: %1$@";
+"Message IO Exception: %1$@" = "消息 IO 异常： %1$@";
 
 /* The format string for PodProtocolError.couldNotParseMessageException (1: message associated with error) */
 "Could not parse message: %1$@" = "Could not parse message: %1$@";
@@ -421,7 +421,7 @@
 "Invalid address 0x%x. Expected 0x%x" = "Invalid address 0x%x. Expected 0x%x";
 
 /* Error message shown when the pod is not connected. */
-"Pod not connected" = "Pod not connected";
+"Pod not connected" = "Pod未连接";
 
 /* Error message action could not be performed because pod is suspended */
 "Pod is suspended" = "Pod已暂停";
@@ -448,13 +448,13 @@
 "Signal strength too high" = "Signal strength too high";
 
 /* Error message for PodCommsError.noPodsFound */
-"No pods found" = "No pods found";
+"No pods found" = "未找到 Pod";
 
 /* Error message for PodCommsError.tooManyPodsFound */
-"Too many pods found" = "Too many pods found";
+"Too many pods found" = "找到太多 Pod";
 
 /* Recovery suggestion when no response is received from pod */
-"Make sure iPhone is nearby the active pod" = "Make sure iPhone is nearby the active pod";
+"Make sure iPhone is nearby the active pod" = "请确保 iPhone 在激活的 Pod 附近";
 
 /* Recovery suggestion when ack received instead of response */
 "Try again" = "再試一次";
@@ -463,7 +463,7 @@
 "Crosstalk possible. Please move to a new location" = "Crosstalk possible. Please move to a new location";
 
 /* Recovery suggestion when no pod is available */
-"Make sure your pod is nearby and try again." = "Make sure your pod is nearby and try again.";
+"Make sure your pod is nearby and try again." = "请确认 Pod 与手机的距离并重试";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "请等待大剂量输注完成,或取消大剂量输注";
@@ -472,22 +472,22 @@
 "Wait for existing temp basal to finish, or suspend to cancel" = "请等待临时基础率结束,或暂停以取消临时基础率";
 
 /* Recovery suggestion when pod is suspended" */
-"Resume delivery" = "Resume delivery";
+"Resume delivery" = "恢复输注";
 
 /* Recovery suggestion on unexpected pod change */
 "Please bring only original pod in range or deactivate original pod" = "Please bring only original pod in range or deactivate original pod";
 
 /* Recovery suggestion when pairing signal strength is too low */
-"Please reposition iPhone relative to the pod" = "Please reposition iPhone relative to the pod";
+"Please reposition iPhone relative to the pod" = "请重新调整 iPhone 与 Pod 的位置";
 
 /* Recovery suggestion when pairing signal strength is too high */
-"Please reposition iPhone further from the pod" = "Please reposition iPhone further from the pod";
+"Please reposition iPhone further from the pod" = "请将 iPhone 稍远离 Pod";
 
 /* Recovery suggestion for PodCommsError.noPodsFound */
-"Make sure your pod is filled and nearby." = "Make sure your pod is filled and nearby.";
+"Make sure your pod is filled and nearby." = "请确保您的Pod已注入胰岛素和并且和手机保持近距离。";
 
 /* Recovery suggestion for PodCommsError.tooManyPodsFound */
-"Move to a new area away from any other pods and try again." = "Move to a new area away from any other pods and try again.";
+"Move to a new area away from any other pods and try again." = "请确认仅有一个 Pod 在手机通信范围内并重试";
 
 /* Title text for delivery limits */
 "Delivery Limits" = "输注限制";
