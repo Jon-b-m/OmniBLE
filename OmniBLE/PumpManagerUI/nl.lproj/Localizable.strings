@@ -8,7 +8,7 @@
 "Primed" = "Klaar gemaakt";
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
-"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+"If the problem persists, move to a new area and try again" = "Als het probleem aanhoudt, ga dan naar een nieuw gebied en probeer het opnieuw";
 
 /* Button title to pair with pod during setup*/
 "Pair" = "Verbind";
@@ -32,10 +32,10 @@
 "Enable Confirmation Beeps" = "Schakel bevestigingspiepjes in";
 
 /* Title text for button to disable extended confirmation beeps */
-"Disable Extended Confirmation Beeps" = "Disable Extended Confirmation Beeps";
+"Disable Extended Confirmation Beeps" = "Schakel bevestigingspiepjes uit";
 
 /* Title text for button to enable extended confirmation beeps */
-"Enable Extended Confirmation Beeps" = "Enable Extended Confirmation Beeps";
+"Enable Extended Confirmation Beeps" = "Schakel bevestigingspiepjes in";
 
 /* Title of the pod settings view controller" */
 "Pod Settings" = "Pod instellingen";
@@ -47,7 +47,7 @@
 "Diagnostics" = "Diagnostische gegevens";
 
 /* The title of the pod details section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Pod details";
 
 /* The title of the cell showing alarm status */
 "Alarms" = "Alarmen";
@@ -59,7 +59,7 @@
 "Expired" = "Vervallen";
 
 /* The title of the cell showing the pod active clock */
-"Pod Active Clock" = "Pod Active Clock";
+"Pod Active Clock" = "Pod actieve klok";
 
 /* The title of the cell showing pod bolus status */
 "Bolus Delivery" = "Bolus levering";
@@ -104,40 +104,40 @@
 "Test Command" = "Test commando";
 
 /* The title of the cell showing the pod lot number" */
-"Lot Number" = "Lot Number";
+"Lot Number" = "Lot nummer";
 
 /* The title of the cell showing the pod sequence number */
-"Sequence Number" = "Sequence Number";
+"Sequence Number" = "Volgnummer";
 
 /* The title of the cell showing the firmware version */
-"Firmware Version" = "Firmware Version";
+"Firmware Version" = "Firmware versie";
 
 /* The title of the cell showing the BLE firmware version" */
-"BLE Firmware Version" = "BLE Firmware Version";
+"BLE Firmware Version" = "BLE Firmwareversie";
 
 /* The title of the cell showing the BLE device name */
-"BLE Device Name" = "BLE Device Name";
+"BLE Device Name" = "BLE Apparaat naam";
 
 /* Title text for the button to delete Omnipod Dash PumpManager */
-"Switch from Omnipod Dash Pumps" = "Switch from Omnipod Dash Pumps";
+"Switch from Omnipod Dash Pumps" = "Switch Omnipod Dash pompen";
 
 /* The alert title for a resume error */
-"Error Resuming" = "Fout bij vervolgen";
+"Error Resuming" = "Fout bij hervatten.";
 
 /* The alert title for a suspend error */
 "Error Suspending" = "Fout met onderbreken";
 
 /* The alert title for enable confirmation beeps error */
-"Error enabling confirmation beeps" = "Error enabling confirmation beeps";
+"Error enabling confirmation beeps" = "Fout bij het uitschakelen van bevestigingspiepjes";
 
 /* The alert title for disable confirmation beeps error */
-"Error disabling confirmation beeps" = "Error disabling confirmation beeps";
+"Error disabling confirmation beeps" = "Fout bij het uitschakelen van bevestigingspiepjes";
 
 /* Confirmation message for removing Omnipod Dash PumpManager */
-"Are you sure you want to stop using Omnipod Dash?" = "Are you sure you want to stop using Omnipod Dash?";
+"Are you sure you want to stop using Omnipod Dash?" = "Weet je zeker dat je wilt stoppen met deze Omnipod Dash?";
 
 /* Button title to delete Omnipod Dash PumpManager */
-"Delete Omnipod Dash" = "Delete Omnipod Dash";
+"Delete Omnipod Dash" = "Verwijder Omnipod Dash";
 
 /* The title of the cancel action in an action sheet */
 "Cancel" = "Annuleer";
@@ -161,7 +161,7 @@
 "%@ U (Finished)" = "%@ E (afgerond)";
 
 /* Format string for bolus progress. (1: The delivered amount) (2: The programmed amount) (3: the percent progress) */
-"%@ U of %@ U (%@)" = "%@ U of %@ U (%@)";
+"%@ U of %@ U (%@)" = "%@ E van %@ E (%@)";
 
 /* The detail text for delivered insulin when no measurement is available */
 "Unknown" = "Onbekend";
@@ -176,70 +176,70 @@
 "%@ U" = "%@ E";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.poweredOff) */
-"Bluetooth is powered off" = "Bluetooth is powered off";
+"Bluetooth is powered off" = "Bluetooth is uitgeschakeld";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.resetting) */
-"Bluetooth is resetting" = "Bluetooth is resetting";
+"Bluetooth is resetting" = "Bluetooth wordt gereset";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unauthorized) */
-"Bluetooth use is unauthorized" = "Bluetooth use is unauthorized";
+"Bluetooth use is unauthorized" = "Bluetooth gebruik is niet geautoriseerd";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unsupported) */
-"Bluetooth use unsupported on this device" = "Bluetooth use unsupported on this device";
+"Bluetooth use unsupported on this device" = "Bluetooth wordt niet ondersteund door dit apparaat";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unknown) */
-"Bluetooth is unavailable for an unknown reason." = "Bluetooth is unavailable for an unknown reason.";
+"Bluetooth is unavailable for an unknown reason." = "Bluetooth is niet beschikbaar om onbekende redenen.";
 
 /* The format string for BluetoothManagerError.bluetoothNotAvailable for unknown state (1: the unknown state) */
-"Bluetooth is unavailable: %1$@" = "Bluetooth is unavailable: %1$@";
+"Bluetooth is unavailable: %1$@" = "Bluetooth is niet beschikbaar: %1$@";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.poweredOff) */
-"Turn bluetooth on" = "Turn bluetooth on";
+"Turn bluetooth on" = "Bluetooth inschakelen";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.resetting) */
-"Try again" = "Try again";
+"Try again" = "Probeer opnieuw";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.unauthorized) */
-"Please enable bluetooth permissions for this app in system settings" = "Please enable bluetooth permissions for this app in system settings";
+"Please enable bluetooth permissions for this app in system settings" = "Schakel bluetooth permissies in voor deze app in de systeem instellingen";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.unsupported) */
-"Please use a different device with bluetooth capabilities" = "Please use a different device with bluetooth capabilities";
+"Please use a different device with bluetooth capabilities" = "Gebruik een ander apparaat met bluetooth mogelijkheden";
 
 /* Error message description for PeripheralManagerError.notReady */
-"Peripheral Not Ready" = "Peripheral Not Ready";
+"Peripheral Not Ready" = "Randapparaat niet gereed";
 
 /* Error message description for PeripheralManagerError.incorrectResponse */
-"Incorrect Response" = "Incorrect Response";
+"Incorrect Response" = "Onjuist antwoord";
 
 /* Error message description for PeripheralManagerError.timeout */
 "Timeout" = "Timeout";
 
 /* Error message description for PeripheralManagerError.emptyValue */
-"Empty Value" = "Empty Value";
+"Empty Value" = "Lege waarde";
 
 /* Error message description for PeripheralManagerError.unknownCharacteristic */
-"Unknown Characteristic" = "Unknown Characteristic";
+"Unknown Characteristic" = "Onbekend kenmerk";
 
 /* Error message description for PeripheralManagerError.nack */
 "Nack" = "Nack";
 
 /* The format string for PodProtocolError.invalidLTKKey (1: message associated with error) */
-"Invalid LTK Key: %1$@" = "Invalid LTK Key: %1$@";
+"Invalid LTK Key: %1$@" = "Ongeldige LTK sleutel: %1$@";
 
 /* The format string for PodProtocolError.pairingException (1: message associated with error)" */
-"Pairing Exception: %1$@" = "Pairing Exception: %1$@";
+"Pairing Exception: %1$@" = "Koppelingsuitzondering: %1$@";
 
 /* The format string for PodProtocolError.messageIOException (1: message associated with error)" */
-"Message IO Exception: %1$@" = "Message IO Exception: %1$@";
+"Message IO Exception: %1$@" = "Bericht IO uitzondering: %1$@";
 
 /* The format string for PodProtocolError.couldNotParseMessageException (1: message associated with error) */
-"Could not parse message: %1$@" = "Could not parse message: %1$@";
+"Could not parse message: %1$@" = "Bericht kon niet worden verwerkt: %1$@";
 
 /* The format string for PodProtocolError.incorrectPacketException (1: payload)(2: location) */
-"Incorrect Packet Exception: %1$@ (location=%2$d)" = "Incorrect Packet Exception: %1$@ (location=%2$d)";
+"Incorrect Packet Exception: %1$@ (location=%2$d)" = "Onjuiste pakketuitzondering: %1$@ (locatie =%2$d)";
 
 /* The format string for description of PodProtocolError.invalidCrc (1:payload crc)(2:computed crc) */
-"Payload crc32 %1$@ does not match computed crc32 %2$@" = "Payload crc32 %1$@ does not match computed crc32 %2$@";
+"Payload crc32 %1$@ does not match computed crc32 %2$@" = "Payload crc32 %1$@ komt niet overeen met de berekening crc32 %2$@";
 
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Auto-uit alarm";
@@ -412,16 +412,16 @@
 "Waiting for pairing reminder" = "Wacht op herinnering om te verbinden";
 
 /* Error message shown when pod sends ack instead of response */
-"Pod sent ack instead of response" = "Pod sent ack instead of response";
+"Pod sent ack instead of response" = "Pod verstuurde ack in plaats van reactie";
 
 /* Error message shown when empty response from pod was received" */
 "Unexpected response from pod" = "Onverwachte reactie van pod";
 
 /* Error message for when unexpected address is received (1: received address) (2: expected address) */
-"Invalid address 0x%x. Expected 0x%x" = "Invalid address 0x%x. Expected 0x%x";
+"Invalid address 0x%x. Expected 0x%x" = "Ongeldig adres 0x%x. Verwacht 0x%x";
 
 /* Error message shown when the pod is not connected. */
-"Pod not connected" = "Pod not connected";
+"Pod not connected" = "Pod is niet verbonden";
 
 /* Error message action could not be performed because pod is suspended */
 "Pod is suspended" = "Pod is onderbroken";
@@ -430,40 +430,40 @@
 "Pod Fault: %1$@" = " Pod fout: %1S@";
 
 /* Error message when command is rejected because an unacknowledged command is pending. */
-"Communication issue: Unacknowledged command pending." = "Communication issue: Unacknowledged command pending.";
+"Communication issue: Unacknowledged command pending." = "Communicatieprobleem: Onbeantwoord commando in behandeling.";
 
 /* Format string for invalid message error code (1: error code number) */
-"Command error %1$u" = "Command error %1$u";
+"Command error %1$u" = "Opdracht fout %1$u";
 
 /* Format string for unexpected pod change*/
-"Unexpected pod change" = "Unexpected pod change";
+"Unexpected pod change" = "Onverwachte wijziging pod";
 
 /* Format string for activation time exceeded */
-"Activation time exceeded" = "Activation time exceeded";
+"Activation time exceeded" = "Activeringstijd overschreden";
 
 /* Format string for poor pod signal strength */
-"Poor signal strength" = "Poor signal strength";
+"Poor signal strength" = "Zwakke signaalsterkte";
 
 /* Format string for pod signal strength too high" */
-"Signal strength too high" = "Signal strength too high";
+"Signal strength too high" = "Signaalsterkte te hoog";
 
 /* Error message for PodCommsError.noPodsFound */
-"No pods found" = "No pods found";
+"No pods found" = "Geen pods gevonden";
 
 /* Error message for PodCommsError.tooManyPodsFound */
-"Too many pods found" = "Too many pods found";
+"Too many pods found" = "Te veel pods gevonden";
 
 /* Recovery suggestion when no response is received from pod */
-"Make sure iPhone is nearby the active pod" = "Make sure iPhone is nearby the active pod";
+"Make sure iPhone is nearby the active pod" = "Zorg ervoor dat de iPhone dicht bij de actieve pod in de buurt is";
 
 /* Recovery suggestion when ack received instead of response */
-"Try again" = "Try again";
+"Try again" = "Probeer opnieuw";
 
 /* Recovery suggestion when unexpected address received */
-"Crosstalk possible. Please move to a new location" = "Crosstalk possible. Please move to a new location";
+"Crosstalk possible. Please move to a new location" = "Verstoring mogelijk. Ga naar een nieuwe locatie en probeer het opnieuw";
 
 /* Recovery suggestion when no pod is available */
-"Make sure your pod is nearby and try again." = "Make sure your pod is nearby and try again.";
+"Make sure your pod is nearby and try again." = "Zorg dat je iPhone in de buurt is en probeer opnieuw.";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Wacht op huidige bolus of maak bolus ongedaan";
@@ -472,22 +472,22 @@
 "Wait for existing temp basal to finish, or suspend to cancel" = "Wacht op huidig tijdelijk basaal of onderbreek om te annuleren";
 
 /* Recovery suggestion when pod is suspended" */
-"Resume delivery" = "Resume delivery";
+"Resume delivery" = "Hervat toediening";
 
 /* Recovery suggestion on unexpected pod change */
-"Please bring only original pod in range or deactivate original pod" = "Please bring only original pod in range or deactivate original pod";
+"Please bring only original pod in range or deactivate original pod" = "Breng alstublieft alleen de originele pod binnen bereik of deactiveer de originele pod";
 
 /* Recovery suggestion when pairing signal strength is too low */
-"Please reposition iPhone relative to the pod" = "Please reposition iPhone relative to the pod";
+"Please reposition iPhone relative to the pod" = "Verplaats de iPhone ten opzichte van de pod";
 
 /* Recovery suggestion when pairing signal strength is too high */
-"Please reposition iPhone further from the pod" = "Please reposition iPhone further from the pod";
+"Please reposition iPhone further from the pod" = "Verplaats de iPhone verder weg van de pod";
 
 /* Recovery suggestion for PodCommsError.noPodsFound */
-"Make sure your pod is filled and nearby." = "Make sure your pod is filled and nearby.";
+"Make sure your pod is filled and nearby." = "Zorg ervoor dat je pod is ingevuld en in de buurt is.";
 
 /* Recovery suggestion for PodCommsError.tooManyPodsFound */
-"Move to a new area away from any other pods and try again." = "Move to a new area away from any other pods and try again.";
+"Move to a new area away from any other pods and try again." = "Verplaats naar een nieuw gebied dat uit de buurt is van andere pods en probeer opnieuw.";
 
 /* Title text for delivery limits */
 "Delivery Limits" = "Toediening limieten";
