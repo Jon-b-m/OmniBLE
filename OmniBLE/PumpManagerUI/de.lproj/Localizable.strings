@@ -32,10 +32,10 @@
 "Enable Confirmation Beeps" = "Bestätigungstöne einschalten";
 
 /* Title text for button to disable extended confirmation beeps */
-"Disable Extended Confirmation Beeps" = "Disable Extended Confirmation Beeps";
+"Disable Extended Confirmation Beeps" = "erweiterte Bestätigungstöne ausschalten";
 
 /* Title text for button to enable extended confirmation beeps */
-"Enable Extended Confirmation Beeps" = "Enable Extended Confirmation Beeps";
+"Enable Extended Confirmation Beeps" = "erweiterte Bestätigungstöne einschalten";
 
 /* Title of the pod settings view controller" */
 "Pod Settings" = "Pod-Einstellungen";
@@ -176,49 +176,49 @@
 "%@ U" = "%@ IE";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.poweredOff) */
-"Bluetooth is powered off" = "Bluetooth is powered off";
+"Bluetooth is powered off" = "Bluetooth ist ausgeschaltet";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.resetting) */
-"Bluetooth is resetting" = "Bluetooth is resetting";
+"Bluetooth is resetting" = "Bluetooth wird zurückgesetzt";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unauthorized) */
-"Bluetooth use is unauthorized" = "Bluetooth use is unauthorized";
+"Bluetooth use is unauthorized" = "Bluetooth-Nutzung ist nicht autorisiert";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unsupported) */
-"Bluetooth use unsupported on this device" = "Bluetooth use unsupported on this device";
+"Bluetooth use unsupported on this device" = "Bluetooth wird von diesem Gerät nicht unterstützt";
 
 /* Error description for BluetoothManagerError.bluetoothNotAvailable(.unknown) */
-"Bluetooth is unavailable for an unknown reason." = "Bluetooth is unavailable for an unknown reason.";
+"Bluetooth is unavailable for an unknown reason." = "Bluetooth ist aus einem unbekannten Grund nicht verfügbar.";
 
 /* The format string for BluetoothManagerError.bluetoothNotAvailable for unknown state (1: the unknown state) */
-"Bluetooth is unavailable: %1$@" = "Bluetooth is unavailable: %1$@";
+"Bluetooth is unavailable: %1$@" = "Bluetooth ist nicht verfügbar: %1$@";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.poweredOff) */
-"Turn bluetooth on" = "Turn bluetooth on";
+"Turn bluetooth on" = "Schalte Bluetooth ein";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.resetting) */
 "Try again" = "Bitte erneut versuchen";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.unauthorized) */
-"Please enable bluetooth permissions for this app in system settings" = "Please enable bluetooth permissions for this app in system settings";
+"Please enable bluetooth permissions for this app in system settings" = "Bitte aktivieren Sie die Bluetooth-Berechtigungen für diese App in den Systemeinstellungen";
 
 /* recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.unsupported) */
-"Please use a different device with bluetooth capabilities" = "Please use a different device with bluetooth capabilities";
+"Please use a different device with bluetooth capabilities" = "Bitte verwenden Sie ein anderes Gerät mit Bluetooth-Funktionen";
 
 /* Error message description for PeripheralManagerError.notReady */
 "Peripheral Not Ready" = "Peripheral Not Ready";
 
 /* Error message description for PeripheralManagerError.incorrectResponse */
-"Incorrect Response" = "Incorrect Response";
+"Incorrect Response" = "Fehlerhafte Antwort";
 
 /* Error message description for PeripheralManagerError.timeout */
-"Timeout" = "Timeout";
+"Timeout" = "Zeitüberschreitung";
 
 /* Error message description for PeripheralManagerError.emptyValue */
-"Empty Value" = "Empty Value";
+"Empty Value" = "Leerer Wert";
 
 /* Error message description for PeripheralManagerError.unknownCharacteristic */
-"Unknown Characteristic" = "Unknown Characteristic";
+"Unknown Characteristic" = "Unbekannte Eigenschaft";
 
 /* Error message description for PeripheralManagerError.nack */
 "Nack" = "Nack";
@@ -227,19 +227,19 @@
 "Invalid LTK Key: %1$@" = "Invalid LTK Key: %1$@";
 
 /* The format string for PodProtocolError.pairingException (1: message associated with error)" */
-"Pairing Exception: %1$@" = "Pairing Exception: %1$@";
+"Pairing Exception: %1$@" = "Pairing Ausnahme: %1$@";
 
 /* The format string for PodProtocolError.messageIOException (1: message associated with error)" */
-"Message IO Exception: %1$@" = "Message IO Exception: %1$@";
+"Message IO Exception: %1$@" = "Nachricht IO-Ausnahme: %1$@";
 
 /* The format string for PodProtocolError.couldNotParseMessageException (1: message associated with error) */
-"Could not parse message: %1$@" = "Could not parse message: %1$@";
+"Could not parse message: %1$@" = "Konnte Nachricht nicht parsen: %1$@";
 
 /* The format string for PodProtocolError.incorrectPacketException (1: payload)(2: location) */
-"Incorrect Packet Exception: %1$@ (location=%2$d)" = "Incorrect Packet Exception: %1$@ (location=%2$d)";
+"Incorrect Packet Exception: %1$@ (location=%2$d)" = "Fehlerhafte Paketausnahme: %1$@ (Standort=%2$d)";
 
 /* The format string for description of PodProtocolError.invalidCrc (1:payload crc)(2:computed crc) */
-"Payload crc32 %1$@ does not match computed crc32 %2$@" = "Payload crc32 %1$@ does not match computed crc32 %2$@";
+"Payload crc32 %1$@ does not match computed crc32 %2$@" = "Payload crc32 %1$@ entspricht nicht der berechneten crc32 %2$@";
 
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Auto-Off Alarm";
@@ -418,10 +418,10 @@
 "Unexpected response from pod" = "Unerwartete Antwort vom Pod";
 
 /* Error message for when unexpected address is received (1: received address) (2: expected address) */
-"Invalid address 0x%x. Expected 0x%x" = "Invalid address 0x%x. Expected 0x%x";
+"Invalid address 0x%x. Expected 0x%x" = "Ungültige Adresse 0x%x. Erwartet 0x%x";
 
 /* Error message shown when the pod is not connected. */
-"Pod not connected" = "Pod not connected";
+"Pod not connected" = "Pod ist nicht verbunden";
 
 /* Error message action could not be performed because pod is suspended */
 "Pod is suspended" = "Pod ist unterbrochen";
@@ -430,7 +430,7 @@
 "Pod Fault: %1$@" = "Podfehler: %1$@";
 
 /* Error message when command is rejected because an unacknowledged command is pending. */
-"Communication issue: Unacknowledged command pending." = "Communication issue: Unacknowledged command pending.";
+"Communication issue: Unacknowledged command pending." = "Kommunikationsproblem: Unbestätigtes Kommando ausstehend.";
 
 /* Format string for invalid message error code (1: error code number) */
 "Command error %1$u" = "Befehl-Fehler %1$u";
@@ -448,22 +448,22 @@
 "Signal strength too high" = "Signalstärke zu hoch";
 
 /* Error message for PodCommsError.noPodsFound */
-"No pods found" = "No pods found";
+"No pods found" = "Keine Pods gefunden";
 
 /* Error message for PodCommsError.tooManyPodsFound */
-"Too many pods found" = "Too many pods found";
+"Too many pods found" = "Zu viele Pods gefunden";
 
 /* Recovery suggestion when no response is received from pod */
-"Make sure iPhone is nearby the active pod" = "Make sure iPhone is nearby the active pod";
+"Make sure iPhone is nearby the active pod" = "Stellen Sie sicher, dass das iPhone in der Nähe des aktiven Pods ist";
 
 /* Recovery suggestion when ack received instead of response */
 "Try again" = "Bitte erneut versuchen";
 
 /* Recovery suggestion when unexpected address received */
-"Crosstalk possible. Please move to a new location" = "Crosstalk possible. Please move to a new location";
+"Crosstalk possible. Please move to a new location" = "Störsignale möglich. Bitte Position ändern und dann erneut versuchen";
 
 /* Recovery suggestion when no pod is available */
-"Make sure your pod is nearby and try again." = "Make sure your pod is nearby and try again.";
+"Make sure your pod is nearby and try again." = "Vergewissern Sie sich, dass Ihr Pod in der Nähe ist und versuchen Sie es erneut.";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Warten Sie, bis der aktuelle Bolus abgegeben wurde, oder brechen Sie den Bolus ab.";
@@ -472,22 +472,22 @@
 "Wait for existing temp basal to finish, or suspend to cancel" = "Warten Sie, bis die aktuelle temporäre Basalrate beendet wurde, oder unterbrechen Sie diese.";
 
 /* Recovery suggestion when pod is suspended" */
-"Resume delivery" = "Resume delivery";
+"Resume delivery" = "Abgabe fortsetzen";
 
 /* Recovery suggestion on unexpected pod change */
 "Please bring only original pod in range or deactivate original pod" = "Bitte halten Sie nur den Original-Pod in der Reichweite oder deaktivieren Sie den Original-Pod";
 
 /* Recovery suggestion when pairing signal strength is too low */
-"Please reposition iPhone relative to the pod" = "Please reposition iPhone relative to the pod";
+"Please reposition iPhone relative to the pod" = "Bitte das iPhone näher zum Pod positionieren";
 
 /* Recovery suggestion when pairing signal strength is too high */
-"Please reposition iPhone further from the pod" = "Please reposition iPhone further from the pod";
+"Please reposition iPhone further from the pod" = "Bitte das iPhone weiter weg vom Pod positionieren";
 
 /* Recovery suggestion for PodCommsError.noPodsFound */
-"Make sure your pod is filled and nearby." = "Make sure your pod is filled and nearby.";
+"Make sure your pod is filled and nearby." = "Vergewissern Sie sich, dass Ihr Pod gefüllt und in der Nähe ist.";
 
 /* Recovery suggestion for PodCommsError.tooManyPodsFound */
-"Move to a new area away from any other pods and try again." = "Move to a new area away from any other pods and try again.";
+"Move to a new area away from any other pods and try again." = "Begeben Sie sich an einen anderen Ort außerhalb der Reichweite von anderen Pods und versuchen Sie es erneut.";
 
 /* Title text for delivery limits */
 "Delivery Limits" = "Verabreichungslimits";
