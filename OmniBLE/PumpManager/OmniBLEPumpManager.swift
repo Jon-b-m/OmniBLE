@@ -11,6 +11,7 @@ import HealthKit
 import LoopKit
 import UserNotifications
 import os.log
+import CoreBluetooth
 
 
 public enum ReservoirAlertState {
@@ -213,7 +214,26 @@ public class OmniBLEPumpManager: DeviceManager {
         podComms.manager?.peripheral.state == .connected
     }
 
-    func podConnectionStateDidChange(isConnected: Bool) {
+    func omnipodPeripheralDidConnect(manager: PeripheralManager) {
+        logDeviceCommunication("Pod connected \(manager.peripheral.identifier.uuidString)", type: .connection)
+        notifyPodConnectionStateDidChange(isConnected: true)
+    }
+
+    func omnipodPeripheralDidDisconnect(peripheral: CBPeripheral, error: Error?) {
+        logDeviceCommunication("Pod disconnected \(peripheral.identifier.uuidString) \(String(describing: error))", type: .connection)
+        notifyPodConnectionStateDidChange(isConnected: false)
+    }
+
+    func omnipodPeripheralDidFailToConnect(peripheral: CBPeripheral, error: Error?) {
+        logDeviceCommunication("Pod failed to connect \(peripheral.identifier.uuidString), \(String(describing: error))", type: .connection)
+    }
+
+    func omnipodPeripheralWasRestored(manager: PeripheralManager) {
+        logDeviceCommunication("Pod peripheral was restored \(manager.peripheral.identifier.uuidString))", type: .connection)
+        notifyPodConnectionStateDidChange(isConnected: manager.peripheral.state == .connected)
+    }
+
+    func notifyPodConnectionStateDidChange(isConnected: Bool) {
         podStateObservers.forEach { (observer) in
             observer.podConnectionStateDidChange(isConnected: isConnected)
         }
@@ -1338,6 +1358,11 @@ extension OmniBLEPumpManager: PumpManager {
                 return
             }
 
+            if self.state.podState?.isSuspended == true {
+                completion(.failure(SetBolusError.certain(PodCommsError.podSuspended)))
+                return
+            }
+
             defer {
                 self.setState({ (state) in
                     state.bolusEngageState = .stable
@@ -1346,29 +1371,6 @@ extension OmniBLEPumpManager: PumpManager {
             self.setState({ (state) in
                 state.bolusEngageState = .engaging
             })
-
-            // Match existing Medtronic auto resume PumpManager behavior (limited to manual boluses as a safeguard)
-            let autoResumeOnManualBolus = true
-
-            if case .some(.suspended) = self.state.podState?.suspendState {
-                // Pod suspended, only auto resume for a manual bolus if autoResumeOnManualBolus is true
-                if automatic || !autoResumeOnManualBolus {
-                    self.log.error("enactBolus: returning pod suspended error for %@ bolus", automatic ? "automatic" : "manual")
-                    completion(.failure(SetBolusError.certain(PodCommsError.podSuspended)))
-                    return
-                }
-                do {
-                    let scheduleOffset = self.state.timeZone.scheduleOffset(forDate: Date())
-                    let beep = self.confirmationBeeps
-                    let podStatus = try session.resumeBasal(schedule: self.state.basalSchedule, scheduleOffset: scheduleOffset, acknowledgementBeep: beep)
-                    guard !podStatus.deliveryStatus.bolusing else {
-                        throw SetBolusError.certain(PodCommsError.unfinalizedBolus)
-                    }
-                } catch let error {
-                    completion(.failure(SetBolusError.certain(error as? PodCommsError ?? PodCommsError.commsError(error: error))))
-                    return
-                }
-            }
 
             var getStatusNeeded = false
             var finalizeFinishedDosesNeeded = false
@@ -1522,8 +1524,8 @@ extension OmniBLEPumpManager: PumpManager {
             }
 
             do {
-                if case .some(.suspended) = self.state.podState?.suspendState {
-                    self.log.info("Not enacting temp basal because podState indicates pod is suspended.")
+                if self.state.podState?.isSuspended == true {
+                    self.log.error("enactTempBasal returning pod suspended error")
                     throw PodCommsError.podSuspended
                 }
 
