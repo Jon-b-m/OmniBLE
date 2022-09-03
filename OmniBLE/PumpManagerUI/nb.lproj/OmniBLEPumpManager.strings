@@ -58,8 +58,8 @@
 /* Class = "UILabel"; text = "Label"; ObjectID = "vEc-Km-ewe"; */
 "vEc-Km-ewe.text" = "Etikett";
 
-/* Class = "UILabel"; text = "Fill a new Omnipod Dash pod (blue tab) with insulin. Listen for 2 beeps from the pod during filling. "; ObjectID = "vmF-Dc-3DS"; */
-"vmF-Dc-3DS.text" = "Fyll en ny Omnipod Dash-pod (blå fane) med insulin. Lytt til 2 pip fra pod under fylling. ";
+/* Class = "UILabel"; text = "Fill a new Omnipod Dash pod (blue needle cap) with U-100 insulin. Listen for 2 beeps from the pod during filling."; ObjectID = "vmF-Dc-3DS"; */
+"vmF-Dc-3DS.text" = "Fyll en ny Omnipod Dash pod (blått beskyttelsesdeksel) med U-100 insulin. Lytt til 2 pip fra poden mens du fyller.";
 
 /* Class = "UINavigationItem"; title = "Replace Pod"; ObjectID = "yy1-xf-HdR"; */
 "yy1-xf-HdR.title" = "Bytt Pod";
