@@ -59,7 +59,7 @@
 "vEc-Km-ewe.text" = "Label";
 
 /* Class = "UILabel"; text = "Fill a new Omnipod Dash pod (blue needle cap) with U-100 insulin. Listen for 2 beeps from the pod during filling."; ObjectID = "vmF-Dc-3DS"; */
-"vmF-Dc-3DS.text" = "Fill a new Omnipod Dash pod (blue needle cap) with U-100 insulin. Listen for 2 beeps from the pod during filling.";
+"vmF-Dc-3DS.text" = "Vul een nieuwe Omnipod Dash (blauwe naaldcap) met een U-100 insuline. Luister naar 2 piepjes van de vulling tijdens het vullen.";
 
 /* Class = "UINavigationItem"; title = "Replace Pod"; ObjectID = "yy1-xf-HdR"; */
 "yy1-xf-HdR.title" = "Vervang Pod";
